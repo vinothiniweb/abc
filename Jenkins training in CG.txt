@@ -1,0 +1,29 @@
+JENKINS-CI/CD Pipeline
+
+DEVOPS
+Waterfall  and also Agile model
+Waterfall Model:
+
+1.Step by step manner
+2.it is a traditional manner
+
+Requirement>Design>Developments>Testing>Maitainance
+
+Prerqeq:
+
+JDK1.8
+
+
+
+
+CI-Continues Integration
+CD-Continues Delivery & Deployment
+
+We can take GIT
+
+Version control system-GIT
+
+3 types
+Local
+Centralized
+Decentralized

@@ -1,0 +1,98 @@
+DEVOPS:
+
+GITHUB,MAVEN-
+
+How to upload the proj on github?
+1.Command prompt(git)
+2.Using Editor
+
+For both require Github account
+
+For Github account
+create repo
+added resdmefile
+git init---- create an empty git repository
+git pull ---pulling the projetc
+git add * --- adding the proj in a local repo
+git config --global user.email vinothini.b.s@capgemini.com
+git config --global user.name vs12
+git commit -m "my project"--- saving the local repo
+git push  http://....
+
+GIT
+ --Using Eclipse also we can create repo and all the git operations above
+
+
+Git-Branching  & Merging
+with single account, multiple users can create as devlopment team
+
+
+Branch & Merge
+By two methods we can do--by the github interface & also editor
+
+Master--- considered as 1st user
+
+1.FORK-copy the proj 7 paste it in youe own account
+2.contribute---using github interface
+3.pull request
+4.master user gets ack in email and in github interface
+5.approve/reject(with comments)
+
+copy/paste-->FORK in github,git clone in cmd prompt,clone the prj in editor
+
+JENKINS:
+
+to Start jenkins server->java -jar jenkins.war --httpPort=8888
+
+on console --jenkins is fully up and running then go to browser
+on browsser- localhost:8888--jenkins dashboard
+
+User:admin
+Passwd:have to go to this path C:\Users\vs12\.jenkins\secrets
+enter password- also shows password location in browser(C:\Users\vs12\.jenkins\secrets\InitialAdminPassword)
+
+Install suggested plugin-click(may take time)
+asks to create user(opt)
+Jenkins home page
+
+
+Plugins--git,maven,gradle,testng,sonarqube
+
+3ways for plugin installation
+
+1.install suggested plugin
+2.Manage jenkins-manage plugins-tabs(available, installed,advanced)
+3.advanced tab-download req plugin in google,then upload it
+
+
+_________
+
+MAven-JAVA
+pom.xml
+
+Gradle-with many paltform
+1.add the plugin
+
+
+
+Sonarqube:
+class without package--pls add the package
+declare a var--do not use it---shows suggestion
+switch case-if default is not provided
+
+How to create jobs
+gradle and maven
+
+Getting result:
+1.build successfull/failure
+2.test case report
+
+Global tool configuration(install using local machine/online)
+
+JAVA-java home path--C:\Program Files\Java\jdk1.8.0_261
+
+MAven--
+GIT--Git home path--C:\Program Files\Git\bin\git.exe
+
+
+
