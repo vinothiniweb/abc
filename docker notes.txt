@@ -1,0 +1,65 @@
+
+DOCKER:
+
+HWat is container:
+
+A way to package appli with al the necessary dependencies and configuration.
+
+Portable artifact
+
+where it lives:
+
+Container repository
+Private repositories
+Public repo for docker--from docker hub you can get official image(appln)
+
+Befor conatiner:
+
+Insatllation pricess is diff on each OS env
+many steps hhwere somthing go wrong
+
+After container:
+Own isolated env
+Packaged with all needed configuration
+one command to install the app
+for ech container we need to run each docker command 
+running same application in 2 diff versions
+
+
+Conatiner:
+layers of images
+Mostly Linux Base Image, bcoz small in size
+
+Conatiner is a running env for image
+Vitual file system
+
+
+Docker commands:
+
+docker pull redis
+
+Docker images
+Docker run redis
+
+Docker ps
+
+To know which was run earlier--docker ps -a
+
+Docker run  -d postgres:9.6
+It shows the ID
+with ID you can start  and stop the conatiner
+
+docker start Id(803273672)
+docker stop 803273672
+
+Port binding:
+docker run -p6379 redis
+ now check with --docker ps
+
+
+
+
+To stop conatiner---Ctrl+c
+
+it will pull the images as apllication 
+

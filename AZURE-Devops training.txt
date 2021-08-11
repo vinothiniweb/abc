@@ -1,0 +1,43 @@
+AZURE Intro
+
+Prodution server-we use as prod env-one or more insance
+
+Waterfall model:
+Req gathering is done in intial stage.No intervention
+
+Agile methodolgy:
+Req gathering will done at any point.Very interactive.
+most wanted model
+
+Iteration/Sprint-duration for single phase
+
+
+Artifacts are the set of files produced after successful intergration
+
+_______
+
+Staging environment-The env that resembles the prod env
+
+Manual Testing:
+
+Manual Unit testing
+Manual UI testing
+
+Automation testing
+
+Automation Unit testing-Nunit
+Automation UI testing-Selenium
+
+Unit testing
+Code
+
+Local machine/Central server
+
+Continous Build
+Continous testing
+Continous Code analysis
+
+
+
+
+

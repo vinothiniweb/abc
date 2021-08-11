@@ -1,0 +1,75 @@
+
+
+VM--IP
+10.128.0.2 (nic0)	34.68.111.223
+
+
+We needto speant daily 1hr for GCP
+
+Create google account
+Readymade labs
+Coursera labs--always open in incognito
+
+
+https://www.coursera.org/learn/preparing-cloud-associate-cloud-engineer-exam/home/welcome
+Google Cloud Platform Fundamentals: Core Infrastructure
+https://www.coursera.org/programs/gcp-partners-learning-program-0-v8b4q?collectionId=tfOTF¤tTab=CATALOG&productId=h9LqVq-lEeauxBIk_RF-8A&productType=course&showMiniModal=true
+2. Essential Google Cloud Infrastructure: Foundation
+https://www.coursera.org/programs/gcp-partners-learning-program-0-v8b4q?collectionId=tfOTF¤tTab=CATALOG&productId=sK6edjzPEees8grTZvuQjA&productType=course&showMiniModal=true
+3. Essential Google Cloud Infrastructure: Core Services
+https://www.coursera.org/programs/gcp-partners-learning-program-0-v8b4q?collectionId=tfOTF¤tTab=CATALOG&productId=9xG8yUo7EeeJdBL3H0RODg&productType=course&showMiniModal=true
+4. Elastic Google Cloud Infrastructure: Scaling and Automation
+https://www.coursera.org/programs/gcp-partners-learning-program-0-v8b4q?collectionId=tfOTF¤tTab=CATALOG&productId=G4Fvqko8Eee4pw7hxA2o1A&productType=course&showMiniModal=true
+5. Preparing for the Google Cloud Associate Cloud Engineer Exam
+https://www.coursera.org/programs/gcp-partners-learning-program-0-v8b4q?collectionId=tfOTF¤tTab=CATALOG&productId=W6zo0XaPEemMiBJD8adJBg&productType=course&showMiniModal=true
+
+Scripts for GCP=INSTANCE creation
+https://cloud.google.com/compute/docs/instances/startup-scripts
+
+
+    key : startup-script
+​
+    value : sudo apt-get updatesudo apt-get install nginx-light -y
+cat <<EOF >/var/www/html/index.nginx-debian.html
+<html><body><h1> Welcome to nginx server spiky sales</h1>
+<p> links for emp </p>
+</body></html>
+EOF
+
+
+CLoud Storage in Pluralsight
+
+Create Bucket:
+https://storage.googleapis.com/vinobucket1/kitten.png
+
+Create Folder:
+cretae folder inside bucket
+
+VPC
+coursera
+Multiple VPC network
+VPC network fundamentals
+VPC network Peering
+VPC flowlocks
+
+IAM:
+IAMcustom roles
+
+Cloud monitoring Services
+1.37.00
+
+https://app.pluralsight.com/paths/certificate/cloud-engineering-with-google-cloud
+
+In Udemy
+Clude associate engineer
+https://cloud.google.com/certification/guides/cloud-engineer
+
+https://www.examtopics.com/exams/google/associate-cloud-engineer/
+
+
+    https://www.webassessor.com/
+​
+    https://www.udemy.com/course/google-cloud-certification-associate-cloud-engineer/
+
+    https://www.udemy.com/course/google-associate-cloud-engineer-practice-exams-2021/
+Google Associate Cloud Engineer Practice Exams - 2021Updated 07/2021 # Become GCP Google Certified Associate Cloud Engineer # Google Cloud Certification # Ace ACE Examwww.udemy.com
