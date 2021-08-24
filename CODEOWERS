@@ -5,5 +5,5 @@
 
 # The '*' pattern is global owners.
 
-# Order is important. The last matching pattern has the most precedence.
+# this file is for default approvar setting.
 * @vs12 
